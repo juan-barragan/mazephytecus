@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="30dip"
+    android:background = "#FFb3b4c8"
+    
+    android:stretchColumns="1" >
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/high_score_text" />
+        <TextView
+            android:id="@+id/high_score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:gravity="right"
+            android:text="0" />
+    </TableRow>   
+     
+	<TableRow android:layout_height="1px">
+	   <TextView android:layout_span="2" android:layout_height="1px" 
+	             android:layout_width="fill_parent" android:text="">
+	   </TextView>
+	</TableRow>
+        
+    <TableRow>
+        <TextView
+            android:id="@+id/elapsed_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/elapsed_time_text" />
+        <TextView
+            android:id="@+id/elapsed_time_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:gravity="right"
+            android:text="0" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:id="@+id/maze_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/maze_area_text" />
+        <TextView
+            android:id="@+id/maze_area_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:gravity="right"
+            android:text="0" />
+    </TableRow>
+    
+    <TableRow >
+        <TextView
+            android:id="@+id/path_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/path_length_text" />
+
+        <TextView
+            android:id="@+id/path_length_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:gravity="right"
+            android:text="0" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/moves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/player_moves_text" />
+
+        <TextView
+            android:id="@+id/player_moves_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:gravity="right"
+            android:text="0" />
+
+    </TableRow>
+	<TableRow android:layout_height="1px" android:background="#FFFFFFFF">
+	   <TextView android:layout_span="2" android:layout_height="1px" 
+	             android:layout_width="fill_parent" android:text="">
+	   </TextView>
+	</TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFFFF"
+            android:text="@string/score_text" />
+
+        <TextView
+            android:id="@+id/score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#FFFFFFFF"
+            android:text="0" />
+
+    </TableRow>
+     <TableRow>
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />       -->
+        <Button
+	        android:id="@+id/finish_button"
+	        android:background="@drawable/button_shape"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_span="2"
+	        android:layout_margin = "3dp"
+	        android:gravity ="center_vertical|center_horizontal"
+	       	android:textColor="#FFFFFFFF"	        
+	        android:text="@string/finish_message" /> 
+        <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />  -->		        
+	 </TableRow>
+</TableLayout>

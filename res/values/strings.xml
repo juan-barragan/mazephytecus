@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maze Phytecus</string>
+    <string name="new_maze">New</string>
+    <string name="resume_maze">Resume</string>
+    <string name="app_exit">Bye</string>
+    <string name="maze_difficulty">Select Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="congratulations">Great!</string> 
+    <string name="high_score_text">Current High Score</string>
+    <string name="new_high_score_text">This is a new High Score!</string>
+    <string name="no_errors_text">You made no errors!</string>
+    <string name="elapsed_time_text">Elapsed Time</string>
+    <string name="maze_area_text">Maze Size</string>
+    <string name="path_length_text">Path Length</string>
+    <string name="player_moves_text">Number of Moves</string>
+    <string name="score_text">Grand Total</string>
+    <string name="finish_message">OK</string>
+    <string name="from_template_label">Template</string>
+</resources>
