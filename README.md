@@ -1,1 +1,1 @@
-# mazephytecus a puzzle game for android
+# mazephytecus a maze game for android
